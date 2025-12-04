@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --ao-navy: #04142F;
+  --ao-navy-soft: #0B1E46;
+  --ao-teal: #14D0C5;
+  --ao-teal-soft: #5EE0D6;
+  --ao-coral: #F26A3D;
+  --ao-magenta: #B4307A;
+  --ao-sky: #1CA4F5;
+  --ao-white: #FFFFFF;
+  --ao-offwhite: #F5F7FB;
+  --ao-gray100: #E3E7F0;
+  --ao-gray500: #687086;
+  --ao-gray800: #1F2430;
+  --ao-black: #02040A;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--ao-gray800);
+  background: var(--ao-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: var(--ao-navy);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
