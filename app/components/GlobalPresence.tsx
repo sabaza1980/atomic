@@ -8,7 +8,7 @@ export default function GlobalPresence() {
     { name: "Google", logo: "/clients/google.svg" },
     { name: "TomTom", logo: "/clients/tommy.svg" },
     { name: "Zalando", logo: "/clients/zalando.svg" },
-    { name: "Triglav Group", logo: "/clients/triglav.png" },
+    { name: "TomTom", logo: "/clients/tommy.svg" },
     { name: "Molex", logo: "/clients/molex.svg" },
     { name: "ProGlobal", logo: "/clients/PG.png" }
   ];
