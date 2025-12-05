@@ -6,9 +6,9 @@ import Image from "next/image";
 export default function GlobalPresence() {
   const partners = [
     { name: "Google", logo: "/clients/google.svg" },
-    { name: "TomTom", logo: "/clients/tommy.svg" },
+    { name: "TomTom", logo: "/clients/TomTom_logo.svg" },
     { name: "Zalando", logo: "/clients/zalando.svg" },
-    { name: "TomTom", logo: "/clients/tommy.svg" },
+    { name: "TomTom", logo: "/clients/TomTom_logo.svg" },
     { name: "Molex", logo: "/clients/molex.svg" },
     { name: "ProGlobal", logo: "/clients/PG.png" }
   ];
