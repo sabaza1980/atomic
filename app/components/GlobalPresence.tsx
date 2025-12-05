@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function GlobalPresence() {
   const partners = [
     { name: "Google", logo: "/clients/google.svg" },
-    { name: "TomTom", logo: "/clients/TomTom_logo.svg" },
+    { name: "Tommy", logo: "/clients/tommy.svg" },
     { name: "Zalando", logo: "/clients/zalando.svg" },
     { name: "TomTom", logo: "/clients/TomTom_logo.svg" },
     { name: "Molex", logo: "/clients/molex.svg" },
@@ -37,8 +37,10 @@ export default function GlobalPresence() {
                   alt={partner.name}
                   fill
                   className={`${
-                    partner.name === "TomTom" || partner.name === "ProGlobal" 
+                    partner.name === "Tommy" || partner.name === "ProGlobal" 
                       ? "object-cover scale-[1.2]" 
+                      : partner.name === "TomTom"
+                      ? "object-contain scale-75"
                       : partner.name === "Molex"
                       ? "object-contain scale-150"
                       : "object-contain p-2"
